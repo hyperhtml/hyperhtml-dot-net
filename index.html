@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Hyperhtml - Bryce Carr</title>
+	<link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+	<style type="text/css">* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background: #22221f;
+	font-weight: 400;
+}
+#container {
+	width: 100%;
+}
+.small {
+	width: 400px;
+}
+.box {
+	margin: 0 auto;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 15px 10px;
+}
+.blue {
+	background:#0c94be;
+	color: #ffffff;
+}
+.white {
+	background: #ffffff;
+	color: #2e2e2e;
+}
+.innerbox {
+	margin: 0 auto;
+}
+.center {
+	text-align: center;
+}
+.box h2 {
+	display: block;
+	margin: 0 0 10px;
+}
+#header {
+	width: 100%;
+	text-align: center;
+}
+#header h1 {
+	margin: 20px 0;
+	font-weight: 400;
+	color: #45C0ED;
+	text-align: center;
+	font-size: 40px;
+}
+#header h1 span {
+	color: #008DB8;
+}
+.box ul {
+	margin: 10px 0;	
+	list-style-type: none;
+}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script><script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.1.min.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?
+g=a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config people.identify people.set people.increment".split(" ");for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1})(document,window.mixpanel||[]);
+mixpanel.init("c21acdcefec3522bbfbe697feb3fcc9d");</script><script>
+$(document).ready(function(){
+	$('#emailLink').bind('click',function(){
+		mixpanel.track("Clicked: Email Link");
+	});
+	$('#emailLink').hover(function(){
+		mixpanel.track("Clicked: Email Link");
+	});
+});
+</script><script type="text/javascript">
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-172645-1']);
+  _gaq.push(['_trackPageview']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+</script>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<h1>Hyper<span>html</span></h1>
+</div>
+
+<div class="box blue small center submit">
+<div class="vcard box white center" id="hcard-Bryce-A-Carr">
+<h2><span class="given-name">Bryce</span> <span class="additional-name">A</span> <span class="family-name">Carr</span></h2>
+
+<ul><!--<li>Web Development</li>
+<li>Web Design</li>
+<li>Web Hosting</li>-->
+</ul>
+<a class="email" href="mailto:bryce@hyperhtml.net" id="emailLink">bryce@hyperhtml.net</a></div>
+</div>
+</div>
+<script type="text/javascript">
+  var GoSquared = {};
+  GoSquared.acct = "GSN-410147-N";
+  (function(w){
+    function gs(){
+      w._gstc_lt = +new Date;
+      var d = document, g = d.createElement("script");
+      g.type = "text/javascript";
+      g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+      var s = d.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(g, s);
+    }
+    w.addEventListener ?
+      w.addEventListener("load", gs, false) :
+      w.attachEvent("onload", gs);
+  })(window);
+</script></body>
+</html>
