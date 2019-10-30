@@ -19,12 +19,16 @@ function Home() {
       <style jsx>{`
         h1, h2 {
           font-family: inherit;
+          margin: 0;
         }
         h1 {
           color: #4880ff;
+          font-size: 2.5rem;
+          margin-bottom: 8px;
         }
         h2 {
           color: #a1a9b8;
+          font-size: 2rem;
         }
         .row {
           display: flex;
@@ -33,15 +37,25 @@ function Home() {
         }
 
         .title {
-          
+          padding-bottom: 15px;
         }
         .main {
-          padding: 8px 15px;
+          padding: 15px 25px;
           background-color: #fff;
           text-align: center;
+          width: 33%;
+          box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+          border-radius: .25rem;
+        }
+        .main a {
+          color: #007bff;
+          text-decoration: none;
+        }
+        .main a:hover {
+          text-decoration: underline;
         }
         .socials {
-          padding: 10px;
+          padding: 25px;
         }
         .socials a {
           color: #343a40;
@@ -54,6 +68,14 @@ function Home() {
           height: 30px;
           line-height: 30px;
           background-color: #fff;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+        }
+        .text-muted { 
+          color: #6c757d!important;
+          font-size: 14px;
         }
       `}  
       </style>
@@ -76,9 +98,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="row" style={{ textAlign: 'center', display: 'block'}}>
+      <div className="row">
         <div className="col footer">
-          <span className="text-muted">2018</span>
+          <span className="text-muted">{(new Date()).getFullYear()}</span>
         </div>
       </div>
     </React.Fragment>
