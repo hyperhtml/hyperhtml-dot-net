@@ -1,0 +1,26 @@
+{
+  "name": "hyperhtml-dot-net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/next",
+    "build": "./node_modules/.bin/next build",
+    "start": "./node_modules/.bin/next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperhtml/hyperhtml-dot-net.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperhtml/hyperhtml-dot-net/issues"
+  },
+  "homepage": "https://github.com/hyperhtml/hyperhtml-dot-net#readme",
+  "dependencies": {
+    "next": "^9.1.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
