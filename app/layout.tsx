@@ -4,14 +4,18 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
+const title = "Bryce Carr – Software Engineer";
 const description = "GitHub and LinkedIn for Bryce Carr.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://hyperhtml.net"),
-  title: "Bryce Carr",
+  title,
   description,
+  alternates: {
+    canonical: "https://hyperhtml.net",
+  },
   openGraph: {
-    title: "Bryce Carr",
+    title,
     description,
     url: "https://hyperhtml.net",
     siteName: "Bryce Carr",
@@ -19,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bryce Carr",
+    title,
     description,
   },
 };
